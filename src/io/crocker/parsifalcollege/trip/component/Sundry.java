@@ -1,5 +1,7 @@
 package io.crocker.parsifalcollege.trip.component;
 
+import io.crocker.parsifalcollege.cost.Cost;
+
 public class Sundry extends TripComponent {
 	private String description;
 

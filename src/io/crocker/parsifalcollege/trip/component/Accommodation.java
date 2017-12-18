@@ -2,6 +2,8 @@ package io.crocker.parsifalcollege.trip.component;
 
 import java.util.Date;
 
+import io.crocker.parsifalcollege.cost.Cost;
+
 public class Accommodation extends TripComponent {
 	private String name;
 	private Address address;

@@ -1,5 +1,7 @@
 package io.crocker.parsifalcollege.trip;
 
+import io.crocker.parsifalcollege.cost.Cost;
+
 public class ExternalProviderTrip extends Trip {
 	private Cost entranceFee;
 

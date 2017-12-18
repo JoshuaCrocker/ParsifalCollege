@@ -1,5 +1,7 @@
 package io.crocker.parsifalcollege.trip.component;
 
+import io.crocker.parsifalcollege.cost.Cost;
+
 public abstract class TripComponent {
 	private Cost cost;
 
