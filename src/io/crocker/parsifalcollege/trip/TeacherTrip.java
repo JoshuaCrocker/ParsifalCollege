@@ -1,8 +1,12 @@
 package io.crocker.parsifalcollege.trip;
 
+import java.util.ArrayList;
+
+import io.crocker.parsifalcollege.trip.component.TripComponent;
+
 public class TeacherTrip extends Trip {
 
-	private List<TripComponent> tripComponents = new List<TripComponent>();
+	private ArrayList<TripComponent> tripComponents = new ArrayList<TripComponent>();
 
 	public TeacherTrip() {
 		super();
@@ -10,6 +14,14 @@ public class TeacherTrip extends Trip {
 
 	public TeacherTrip(TripType tripType) {
 		super(tripType);
+	}
+
+	public ArrayList<TripComponent> getTripComponents() {
+		return tripComponents;
+	}
+
+	public void setTripComponents(ArrayList<TripComponent> tripComponents) {
+		this.tripComponents = tripComponents;
 	}
 
 	public void addTripComponent(TripComponent booking) {

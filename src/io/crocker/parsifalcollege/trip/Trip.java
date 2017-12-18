@@ -1,10 +1,10 @@
 package io.crocker.parsifalcollege.trip;
 
-import java.util.List;
+import java.util.ArrayList;
 
 public abstract class Trip {
 	private TripType tripType;
-	private List<Booking> bookings = new List<Booking>();
+	private ArrayList<Booking> bookings = new ArrayList<Booking>();
 
 	public Trip() {
 		this.tripType = TripType.SINGLE_DAY;
@@ -22,11 +22,11 @@ public abstract class Trip {
 		this.tripType = tripType;
 	}
 
-	public List<Booking> getBookings() {
+	public ArrayList<Booking> getBookings() {
 		return bookings;
 	}
 
-	public void setBookings(List<Booking> bookings) {
+	public void setBookings(ArrayList<Booking> bookings) {
 		this.bookings = bookings;
 	}
 
