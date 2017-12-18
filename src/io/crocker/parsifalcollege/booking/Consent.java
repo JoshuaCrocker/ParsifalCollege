@@ -2,6 +2,8 @@ package io.crocker.parsifalcollege.booking;
 
 import java.util.Date;
 
+import io.crocker.parsifalcollege.person.Guardian;
+
 public class Consent {
 	private Guardian guardian;
 	private Date dateSigned;

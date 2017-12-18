@@ -2,6 +2,8 @@ package io.crocker.parsifalcollege.trip;
 
 import java.util.ArrayList;
 
+import io.crocker.parsifalcollege.booking.Booking;
+
 public abstract class Trip {
 	private TripType tripType;
 	private ArrayList<Booking> bookings = new ArrayList<Booking>();

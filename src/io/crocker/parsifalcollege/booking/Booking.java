@@ -2,7 +2,7 @@ package io.crocker.parsifalcollege.booking;
 
 import java.util.ArrayList;
 
-import io.crocker.parsifalcollege.trip.component.TripComponent;
+import io.crocker.parsifalcollege.person.Student;
 
 public class Booking {
 	private Student student;
@@ -37,11 +37,11 @@ public class Booking {
 		this.payments = payments;
 	}
 
-	public void addPayment(TripComponent booking) {
+	public void addPayment(Payment booking) {
 		// NYI
 	}
 
-	public TripComponent getPayment(int index) {
+	public Payment getPayment(int index) {
 		// NYI
 	}
 
