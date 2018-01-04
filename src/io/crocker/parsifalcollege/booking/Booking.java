@@ -2,6 +2,7 @@ package io.crocker.parsifalcollege.booking;
 
 import java.util.ArrayList;
 
+import io.crocker.parsifalcollege.cost.Cost;
 import io.crocker.parsifalcollege.person.Student;
 
 public class Booking {
@@ -46,6 +47,10 @@ public class Booking {
 	}
 
 	public boolean removePayment(int index) {
+		// NYI
+	}
+
+	public Cost getRemainingBalance() {
 		// NYI
 	}
 
