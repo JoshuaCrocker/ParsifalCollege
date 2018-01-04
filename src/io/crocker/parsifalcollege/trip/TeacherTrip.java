@@ -2,6 +2,7 @@ package io.crocker.parsifalcollege.trip;
 
 import java.util.ArrayList;
 
+import io.crocker.parsifalcollege.cost.Cost;
 import io.crocker.parsifalcollege.trip.component.TripComponent;
 
 public class TeacherTrip extends Trip {
@@ -33,6 +34,10 @@ public class TeacherTrip extends Trip {
 	}
 
 	public boolean removeTripComponent(int index) {
+		// NYI
+	}
+
+	public Cost getCost() {
 		// NYI
 	}
 }

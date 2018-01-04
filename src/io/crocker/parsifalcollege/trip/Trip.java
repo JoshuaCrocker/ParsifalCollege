@@ -3,10 +3,13 @@ package io.crocker.parsifalcollege.trip;
 import java.util.ArrayList;
 
 import io.crocker.parsifalcollege.booking.Booking;
+import io.crocker.parsifalcollege.cost.Cost;
 
 public abstract class Trip {
 	private TripType tripType;
 	private ArrayList<Booking> bookings = new ArrayList<Booking>();
+
+	public abstract Cost getCost();
 
 	public Trip() {
 		this.tripType = TripType.SINGLE_DAY;

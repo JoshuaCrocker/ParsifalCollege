@@ -23,4 +23,8 @@ public class ExternalProviderTrip extends Trip {
 		this.entranceFee = entranceFee;
 	}
 
+	public Cost getCost() {
+		// NYI
+	}
+
 }
