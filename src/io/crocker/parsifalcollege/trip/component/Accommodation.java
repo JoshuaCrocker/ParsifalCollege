@@ -6,14 +6,12 @@ import io.crocker.parsifalcollege.Address;
 import io.crocker.parsifalcollege.cost.Cost;
 
 public class Accommodation extends TripComponent {
-	private String name;
 	private Address address;
 	private Date dateFrom;
 	private Date dateTo;
 
 	public Accommodation(String name, Address address, Date dateFrom, Date dateTo, Cost cost) {
-		super(cost);
-		this.name = name;
+		super(name, cost);
 		this.address = address;
 		this.dateFrom = dateFrom;
 		this.dateTo = dateTo;
@@ -21,14 +19,6 @@ public class Accommodation extends TripComponent {
 
 	public int getNights() {
 		// NYI
-	}
-
-	public String getName() {
-		return name;
-	}
-
-	public void setName(String name) {
-		this.name = name;
 	}
 
 	public Address getAddress() {

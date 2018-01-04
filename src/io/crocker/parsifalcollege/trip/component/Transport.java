@@ -2,28 +2,19 @@ package io.crocker.parsifalcollege.trip.component;
 
 import java.util.Date;
 
+import io.crocker.parsifalcollege.Address;
 import io.crocker.parsifalcollege.cost.Cost;
 
 public class Transport extends TripComponent {
-	private String companyName;
 	private Address addressFrom;
 	private Address addressTo;
 	private Date date;
 
 	public Transport(String companyName, Address addressFrom, Address addressTo, Date date, Cost cost) {
-		super(cost);
-		this.companyName = companyName;
+		super(companyName, cost);
 		this.addressFrom = addressFrom;
 		this.addressTo = addressTo;
 		this.date = date;
-	}
-
-	public String getCompanyName() {
-		return companyName;
-	}
-
-	public void setCompanyName(String companyName) {
-		this.companyName = companyName;
 	}
 
 	public Address getAddressFrom() {
