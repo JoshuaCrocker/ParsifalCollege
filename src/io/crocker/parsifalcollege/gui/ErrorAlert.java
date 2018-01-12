@@ -1,5 +1,6 @@
 package io.crocker.parsifalcollege.gui;
 
+import io.crocker.parsifalcollege.Lang;
 import javafx.scene.control.Alert;
 
 public class ErrorAlert extends Alert {
@@ -36,6 +37,6 @@ public class ErrorAlert extends Alert {
 	 * @param e
 	 */
 	public ErrorAlert(Exception e) {
-		this("An Exception Occurred", e.getClass().getName(), e.getMessage());
+		this(Lang.ERROR_OCCURRED, e.getClass().getName(), e.getMessage());
 	}
 }
