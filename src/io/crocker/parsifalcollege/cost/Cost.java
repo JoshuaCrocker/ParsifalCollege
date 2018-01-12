@@ -27,6 +27,7 @@ public class Cost {
 
 	public double calculateVAT() {
 		// NYI
+		return 0.00;
 	}
 
 	public double getAmount() {

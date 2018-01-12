@@ -25,6 +25,7 @@ public class ExternalProviderTrip extends Trip {
 
 	public Cost getCost() {
 		// NYI
+		return null;
 	}
 
 }

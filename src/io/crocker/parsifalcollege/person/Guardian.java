@@ -2,6 +2,8 @@ package io.crocker.parsifalcollege.person;
 
 import java.util.Date;
 
+import io.crocker.parsifalcollege.Address;
+
 public class Guardian extends Person {
 	private Relation relation;
 

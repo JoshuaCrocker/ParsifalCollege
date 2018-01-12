@@ -19,6 +19,7 @@ public class Accommodation extends TripComponent {
 
 	public int getNights() {
 		// NYI
+		return 0;
 	}
 
 	public Address getAddress() {

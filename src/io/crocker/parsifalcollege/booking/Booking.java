@@ -44,14 +44,17 @@ public class Booking {
 
 	public Payment getPayment(int index) {
 		// NYI
+		return null;
 	}
 
 	public boolean removePayment(int index) {
 		// NYI
+		return false;
 	}
 
 	public Cost getRemainingBalance() {
 		// NYI
+		return null;
 	}
 
 }

@@ -25,10 +25,12 @@ public class ParsifalCollege {
 
 	public Trip getTrip(int index) {
 		// NYI
+		return null;
 	}
 
 	public boolean removeTrip(int index) {
 		// NYI
+		return false;
 	}
 
 }

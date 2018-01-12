@@ -41,10 +41,12 @@ public abstract class Trip {
 
 	public Booking getBooking(int index) {
 		// NYI
+		return null;
 	}
 
 	public boolean removeBooking(int index) {
 		// NYI
+		return false;
 	}
 
 }

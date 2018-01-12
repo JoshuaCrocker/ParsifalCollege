@@ -31,13 +31,16 @@ public class TeacherTrip extends Trip {
 
 	public TripComponent getTripComponent(int index) {
 		// NYI
+		return null;
 	}
 
 	public boolean removeTripComponent(int index) {
 		// NYI
+		return false;
 	}
 
 	public Cost getCost() {
 		// NYI
+		return null;
 	}
 }

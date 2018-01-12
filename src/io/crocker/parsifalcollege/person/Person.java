@@ -2,6 +2,8 @@ package io.crocker.parsifalcollege.person;
 
 import java.util.Date;
 
+import io.crocker.parsifalcollege.Address;
+
 public abstract class Person {
 	private String firstName;
 	private String midleName;

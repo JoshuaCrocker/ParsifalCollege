@@ -3,6 +3,8 @@ package io.crocker.parsifalcollege.person;
 import java.util.ArrayList;
 import java.util.Date;
 
+import io.crocker.parsifalcollege.Address;
+
 public class Student extends Person {
 	private ArrayList<Guardian> guardians = new ArrayList<Guardian>();
 
@@ -25,10 +27,12 @@ public class Student extends Person {
 
 	public Guardian getGuardian(int index) {
 		// NYI
+		return null;
 	}
 
 	public boolean removeGuardian(int index) {
 		// NYI
+		return false;
 	}
 
 }
