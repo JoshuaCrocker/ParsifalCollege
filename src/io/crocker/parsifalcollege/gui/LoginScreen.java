@@ -8,6 +8,7 @@ import javafx.scene.control.Hyperlink;
 import javafx.scene.control.Label;
 import javafx.scene.control.PasswordField;
 import javafx.scene.control.TextField;
+import javafx.scene.layout.HBox;
 import javafx.scene.layout.VBox;
 import javafx.scene.text.Font;
 import javafx.scene.text.FontWeight;
@@ -54,31 +55,29 @@ public class LoginScreen {
 		txtPassword.setPromptText(Lang.FIELD_LABEL_PASSWORD);
 
 		// Set up login button
-		VBox vBoxButtons = new VBox();
-		vBoxButtons.setSpacing(5);
-		vBoxButtons.setPadding(insLabelPadding);
+		HBox hBoxButtons = new HBox();
+		hBoxButtons.setSpacing(10);
+		hBoxButtons.setPadding(insLabelPadding);
 
 		Button btnLogin = new Button(Lang.BUTTON_LOGIN);
 
 		// Set up forgotten password link
-		Hyperlink hprForgotPassword = new Hyperlink("Forgot Password?");
-		hprForgotPassword.setMinWidth(200);
-		hprForgotPassword.setMaxWidth(200);
+		Hyperlink hprForgotPassword = new Hyperlink(Lang.BUTTON_FORGOT_PASSWORD);
 		hprForgotPassword.setTextAlignment(TextAlignment.CENTER);
 
 		// Add controls to vBox
-		vBoxButtons.getChildren().add(btnLogin);
-		vBoxButtons.getChildren().add(hprForgotPassword);
+		hBoxButtons.getChildren().add(btnLogin);
+		hBoxButtons.getChildren().add(hprForgotPassword);
 
 		vBoxLoginForm.getChildren().add(lblWindowHeader);
 		vBoxLoginForm.getChildren().add(lblUsername);
 		vBoxLoginForm.getChildren().add(txtUsername);
 		vBoxLoginForm.getChildren().add(lblPassword);
 		vBoxLoginForm.getChildren().add(txtPassword);
-		vBoxLoginForm.getChildren().add(vBoxButtons);
+		vBoxLoginForm.getChildren().add(hBoxButtons);
 
 		// Set up scene
-		Scene scene = new Scene(vBoxLoginForm, 200, 350);
+		Scene scene = new Scene(vBoxLoginForm, 200, 210);
 		this.stage.setResizable(false);
 		this.stage.setTitle(Lang.APPLICATION_NAME);
 		this.stage.setScene(scene);

@@ -8,13 +8,14 @@ package io.crocker.parsifalcollege;
  */
 public class Lang {
 	// Application
-	public static String APPLICATION_NAME = "Parsifal College Booking System";
-	public static String ERROR_OCCURRED = "An Error Occurred";
+	public static final String APPLICATION_NAME = "Parsifal College Booking System";
+	public static final String ERROR_OCCURRED = "An Error Occurred";
 
 	// Field Labels
-	public static String FIELD_LABEL_USERNAME = "Username";
-	public static String FIELD_LABEL_PASSWORD = "Password";
+	public static final String FIELD_LABEL_USERNAME = "Username";
+	public static final String FIELD_LABEL_PASSWORD = "Password";
 
 	// Buttons
-	public static String BUTTON_LOGIN = "Login";
+	public static final String BUTTON_LOGIN = "Login";
+	public static final String BUTTON_FORGOT_PASSWORD = "Forgot Password?";
 }
