@@ -1,6 +1,6 @@
 package io.crocker.parsifalcollege;
 
-import io.crocker.parsifalcollege.gui.ForgotPasswordScreen;
+import io.crocker.parsifalcollege.gui.DashboardScreen;
 import javafx.application.Application;
 import javafx.stage.Stage;
 
@@ -12,7 +12,7 @@ public class ParsifalCollegeTripBookingSystem extends Application {
 
 	@Override
 	public void start(Stage primaryStage) throws Exception {
-		ForgotPasswordScreen.getInstance().show();
+		DashboardScreen.getInstance().show();
 
 	}
 
