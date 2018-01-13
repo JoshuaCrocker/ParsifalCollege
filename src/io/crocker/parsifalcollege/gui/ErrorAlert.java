@@ -37,6 +37,6 @@ public class ErrorAlert extends Alert {
 	 * @param e
 	 */
 	public ErrorAlert(Exception e) {
-		this(Lang.ERROR_OCCURRED, e.getClass().getName(), e.getMessage());
+		this(Lang.TITLE_ERROR_OCCURRED, e.getClass().getName(), e.getMessage());
 	}
 }

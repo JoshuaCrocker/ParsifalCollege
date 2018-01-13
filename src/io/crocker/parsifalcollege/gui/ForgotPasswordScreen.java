@@ -36,7 +36,7 @@ public class ForgotPasswordScreen {
 		vBoxLoginForm.setPadding(new Insets(10));
 
 		// Set up window header
-		Label lblWindowHeader = new Label(Lang.FORGOT_PASSWORD);
+		Label lblWindowHeader = new Label(Lang.TITLE_FORGOT_PASSWORD);
 		lblWindowHeader.setMinWidth(200);
 		lblWindowHeader.setMaxWidth(200);
 		lblWindowHeader.setFont(Font.font(Font.getDefault().getFamily(), FontWeight.BOLD, 19));
@@ -94,7 +94,7 @@ public class ForgotPasswordScreen {
 		// Set up scene
 		Scene scene = new Scene(vBoxLoginForm, 200, 280);
 		this.stage.setResizable(false);
-		this.stage.setTitle(Lang.FORGOT_PASSWORD);
+		this.stage.setTitle(Lang.TITLE_FORGOT_PASSWORD);
 		this.stage.setScene(scene);
 	}
 

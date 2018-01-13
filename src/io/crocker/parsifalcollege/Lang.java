@@ -9,8 +9,9 @@ package io.crocker.parsifalcollege;
 public class Lang {
 	// Application
 	public static final String APPLICATION_NAME = "Parsifal College Booking System";
-	public static final String ERROR_OCCURRED = "An Error Occurred";
-	public static final String FORGOT_PASSWORD = "Forgot Password";
+	public static final String TITLE_ERROR_OCCURRED = "An Error Occurred";
+	public static final String TITLE_FORGOT_PASSWORD = "Forgot Password";
+	public static final String TITLE_DASHBOARD = "Dashboard";
 
 	// Field Labels
 	public static final String FIELD_LABEL_USERNAME = "Username";
