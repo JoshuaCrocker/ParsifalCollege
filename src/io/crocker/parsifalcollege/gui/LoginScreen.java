@@ -1,6 +1,9 @@
 package io.crocker.parsifalcollege.gui;
 
 import io.crocker.parsifalcollege.Lang;
+import io.crocker.parsifalcollege.ParsifalCollegeTripBookingSystem;
+import javafx.event.ActionEvent;
+import javafx.event.EventHandler;
 import javafx.geometry.Insets;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
@@ -81,6 +84,15 @@ public class LoginScreen {
 		this.stage.setResizable(false);
 		this.stage.setTitle(Lang.APPLICATION_NAME);
 		this.stage.setScene(scene);
+
+		// Button Handlers
+		btnLogin.setOnAction(new EventHandler<ActionEvent>() {
+			@Override
+			public void handle(ActionEvent e) {
+				// TODO Validate
+				ParsifalCollegeTripBookingSystem.loggedInUserName = txtUsername.getText();
+			}
+		});
 	}
 
 	/**

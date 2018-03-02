@@ -21,7 +21,6 @@ public class Address {
 		this.line2 = line2;
 		this.town = town;
 		this.county = county;
-		this.postcode = postcode;
 		this.country = country;
 	}
 

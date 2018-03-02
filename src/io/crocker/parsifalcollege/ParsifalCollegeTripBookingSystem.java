@@ -1,10 +1,12 @@
 package io.crocker.parsifalcollege;
 
-import io.crocker.parsifalcollege.gui.DashboardScreen;
+import io.crocker.parsifalcollege.gui.ManagePeopleScreen;
 import javafx.application.Application;
 import javafx.stage.Stage;
 
 public class ParsifalCollegeTripBookingSystem extends Application {
+
+	public static String loggedInUserName;
 
 	public static void main(String args[]) {
 		launch(args);
@@ -12,7 +14,7 @@ public class ParsifalCollegeTripBookingSystem extends Application {
 
 	@Override
 	public void start(Stage primaryStage) throws Exception {
-		DashboardScreen.getInstance().show();
+		ManagePeopleScreen.getInstance().show();
 
 	}
 

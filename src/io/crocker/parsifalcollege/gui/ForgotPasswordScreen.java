@@ -92,7 +92,7 @@ public class ForgotPasswordScreen {
 		vBoxLoginForm.getChildren().add(hBoxButtons);
 
 		// Set up scene
-		Scene scene = new Scene(vBoxLoginForm, 200, 280);
+		Scene scene = new Scene(vBoxLoginForm, 200, 300);
 		this.stage.setResizable(false);
 		this.stage.setTitle(Lang.TITLE_FORGOT_PASSWORD);
 		this.stage.setScene(scene);

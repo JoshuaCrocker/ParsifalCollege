@@ -15,6 +15,7 @@ public class Lang {
 	public static final String TITLE_REPORTS = "Reports";
 	public static final String TITLE_TRIPS = "Trips";
 	public static final String TITLE_PEOPLE = "People";
+	public static final String TITLE_MANAGE_PEOPLE = "Manage People";
 
 	// Field Labels
 	public static final String FIELD_LABEL_USERNAME = "Username";
@@ -22,6 +23,21 @@ public class Lang {
 	public static final String FIELD_LABEL_PASSWORD = "Password";
 	public static final String FIELD_LABEL_NEW_PASSWORD = "New Password";
 	public static final String FIELD_LABEL_CONFIRM_PASSWORD = "Confirm Password";
+	public static final String FIELD_LABEL_DEPARTMENT = "Department";
+	public static final String FIELD_LABEL_GUARDIANS = "Guardians";
+	public static final String FIELD_LABEL_FIRST_NAME = "First Name";
+	public static final String FIELD_LABEL_MIDDLE_NAME = "Middle Name";
+	public static final String FIELD_LABEL_LAST_NAME = "Last Name";
+	public static final String FIELD_LABEL_DATE_OF_BIRTH = "Date of Birth";
+	public static final String FIELD_LABEL_ADDRESS_LINE_1 = "Address Line 1";
+	public static final String FIELD_LABEL_ADDRESS_LINE_2 = "Address Line 2";
+	public static final String FIELD_LABEL_TOWN = "Town";
+	public static final String FIELD_LABEL_COUNTY = "County";
+	public static final String FIELD_LABEL_COUNTRY = "Country";
+	public static final String FIELD_LABEL_POSTCODE = "Postcode";
+	public static final String FIELD_LABEL_MOBILE_NUMBER = "Mobile Number";
+	public static final String FIELD_LABEL_USER_TYPE = "User Type";
+	public static final String FIELD_LABEL_RELATION = "Relation";
 
 	// Buttons
 	public static final String BUTTON_LOGIN = "Login";
@@ -31,6 +47,9 @@ public class Lang {
 	public static final String BUTTON_UNPAID = "Unpaid";
 	public static final String BUTTON_UNAUTHORISED = "Unauthorised";
 	public static final String BUTTON_LOG_OUT = "Log Out";
+	public static final String BUTTON_NEW_PERSON = "New Person";
+	public static final String BUTTON_SAVE = "Save";
+	public static final String BUTTON_ADD_GUARDIAN = "Add Guardian";
 
 	// Strings
 	public static final String TODAY = "Today";

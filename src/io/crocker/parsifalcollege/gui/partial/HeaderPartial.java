@@ -4,6 +4,7 @@
 package io.crocker.parsifalcollege.gui.partial;
 
 import io.crocker.parsifalcollege.Lang;
+import io.crocker.parsifalcollege.ParsifalCollegeTripBookingSystem;
 import javafx.geometry.Pos;
 import javafx.scene.control.Hyperlink;
 import javafx.scene.control.Label;
@@ -41,7 +42,7 @@ public class HeaderPartial implements Partial {
 		lblApplicationTitle.setFont(Font.font(Font.getDefault().getFamily(), FontWeight.BOLD, 19));
 		lblScreenTitle.setFont(Font.font(Font.getDefault().getFamily(), 17));
 
-		Label lblLoggedInUser = new Label(Lang.LOGGED_IN_AS + " ..."); // Textflow
+		Label lblLoggedInUser = new Label(Lang.LOGGED_IN_AS + " " + ParsifalCollegeTripBookingSystem.loggedInUserName); // Textflow
 		Hyperlink hprLogOut = new Hyperlink(Lang.BUTTON_LOG_OUT);
 
 		lblLoggedInUser.setAlignment(Pos.BOTTOM_RIGHT);
