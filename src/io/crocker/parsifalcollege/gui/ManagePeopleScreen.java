@@ -74,7 +74,7 @@ public class ManagePeopleScreen {
 	private Button generateSaveButton() {
 		Button btnSave = new Button(Lang.BUTTON_SAVE);
 
-		// TODO actions
+		// TODO Save Action
 
 		return btnSave;
 	}
@@ -214,7 +214,7 @@ public class ManagePeopleScreen {
 		listPeople.getItems().add("[S] Joshua Crocker");
 		listPeople.getItems().add("[T] Edd Budzynski");
 
-		// TODO populate
+		// TODO Populate List of People
 
 		Button btnNewPerson = new Button(Lang.BUTTON_NEW_PERSON);
 		btnNewPerson.setMinWidth(200);

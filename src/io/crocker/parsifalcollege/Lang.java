@@ -16,6 +16,7 @@ public class Lang {
 	public static final String TITLE_TRIPS = "Trips";
 	public static final String TITLE_PEOPLE = "People";
 	public static final String TITLE_MANAGE_PEOPLE = "Manage People";
+	public static final String TITLE_MANAGE_TRIPS = "Manage Trips";
 
 	// Field Labels
 	public static final String FIELD_LABEL_USERNAME = "Username";
@@ -38,6 +39,19 @@ public class Lang {
 	public static final String FIELD_LABEL_MOBILE_NUMBER = "Mobile Number";
 	public static final String FIELD_LABEL_USER_TYPE = "User Type";
 	public static final String FIELD_LABEL_RELATION = "Relation";
+	public static final String FIELD_LABEL_TRIP_TYPE = "Trip Type";
+	public static final String FIELD_LABEL_ORGANISER = "Organiser";
+	public static final String FIELD_LABEL_TRIP_NAME = "Trip Name";
+	public static final String FIELD_LABEL_TRIP_COST = "Trip Cost";
+	public static final String FIELD_LABEL_ITINERARY = "Itinerary";
+	public static final String FIELD_LABEL_ITEM_TYPE = "Item Type";
+	public static final String FIELD_LABEL_ITEM_DESCRIPTION = "Item Description";
+	public static final String FIELD_LABEL_ITEM_COST = "Item Cost";
+	public static final String FIELD_LABEL_STUDENTS = "Students";
+	public static final String FIELD_LABEL_FULLY_PAID = "Fully Paid?";
+	public static final String FIELD_LABEL_HAS_CONSENT = "Has Consent?";
+	public static final String FIELD_LABEL_REMAINING_BALANCE = "Remaining Balance";
+	public static final String FIELD_LABEL_STUDENT = "Student";
 
 	// Buttons
 	public static final String BUTTON_LOGIN = "Login";
@@ -48,6 +62,7 @@ public class Lang {
 	public static final String BUTTON_UNAUTHORISED = "Unauthorised";
 	public static final String BUTTON_LOG_OUT = "Log Out";
 	public static final String BUTTON_NEW_PERSON = "New Person";
+	public static final String BUTTON_NEW_TRIP = "New Trip";
 	public static final String BUTTON_SAVE = "Save";
 	public static final String BUTTON_ADD_GUARDIAN = "Add Guardian";
 
