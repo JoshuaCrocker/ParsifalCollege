@@ -1,6 +1,6 @@
 package io.crocker.parsifalcollege;
 
-import io.crocker.parsifalcollege.gui.ManageTripsScreen;
+import io.crocker.parsifalcollege.gui.ViewReportScreen;
 import javafx.application.Application;
 import javafx.stage.Stage;
 
@@ -14,7 +14,7 @@ public class ParsifalCollegeTripBookingSystem extends Application {
 
 	@Override
 	public void start(Stage primaryStage) throws Exception {
-		ManageTripsScreen.getInstance().show();
+		ViewReportScreen.getInstance().show();
 
 	}
 

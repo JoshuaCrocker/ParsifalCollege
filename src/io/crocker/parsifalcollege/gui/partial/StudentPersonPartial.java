@@ -1,6 +1,7 @@
 package io.crocker.parsifalcollege.gui.partial;
 
 import io.crocker.parsifalcollege.Lang;
+import io.crocker.parsifalcollege.person.Guardian;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 import javafx.scene.control.TableColumn;
@@ -31,11 +32,11 @@ public class StudentPersonPartial implements Partial {
 		hBoxTableTitle.getChildren().add(btnAddGuardian);
 
 		// Table
-		TableView tblGuardians = new TableView();
+		TableView<Guardian> tblGuardians = new TableView<Guardian>();
 
-		TableColumn colFirstName = new TableColumn(Lang.FIELD_LABEL_FIRST_NAME);
-		TableColumn colLastName = new TableColumn(Lang.FIELD_LABEL_LAST_NAME);
-		TableColumn colRelation = new TableColumn(Lang.FIELD_LABEL_RELATION);
+		TableColumn<Guardian, String> colFirstName = new TableColumn<Guardian, String>(Lang.FIELD_LABEL_FIRST_NAME);
+		TableColumn<Guardian, String> colLastName = new TableColumn<Guardian, String>(Lang.FIELD_LABEL_LAST_NAME);
+		TableColumn<Guardian, String> colRelation = new TableColumn<Guardian, String>(Lang.FIELD_LABEL_RELATION);
 
 		tblGuardians.getColumns().add(colFirstName);
 		tblGuardians.getColumns().add(colLastName);

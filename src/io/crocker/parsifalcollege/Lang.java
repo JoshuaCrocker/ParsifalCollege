@@ -17,6 +17,7 @@ public class Lang {
 	public static final String TITLE_PEOPLE = "People";
 	public static final String TITLE_MANAGE_PEOPLE = "Manage People";
 	public static final String TITLE_MANAGE_TRIPS = "Manage Trips";
+	public static final String TITLE_VIEW_REPORT = "[Report Name]"; // Placeholder for actual report name
 
 	// Field Labels
 	public static final String FIELD_LABEL_USERNAME = "Username";
@@ -65,6 +66,7 @@ public class Lang {
 	public static final String BUTTON_NEW_TRIP = "New Trip";
 	public static final String BUTTON_SAVE = "Save";
 	public static final String BUTTON_ADD_GUARDIAN = "Add Guardian";
+	public static final String BUTTON_PRINT = "Print";
 
 	// Strings
 	public static final String TODAY = "Today";
