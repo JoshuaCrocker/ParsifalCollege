@@ -6,9 +6,12 @@ import io.crocker.parsifalcollege.cost.Cost;
 import io.crocker.parsifalcollege.gui.partial.HeaderPartial;
 import io.crocker.parsifalcollege.person.Student;
 import io.crocker.parsifalcollege.trip.component.TripComponent;
+import javafx.collections.FXCollections;
+import javafx.collections.ObservableList;
 import javafx.geometry.Insets;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
+import javafx.scene.control.ComboBox;
 import javafx.scene.control.Label;
 import javafx.scene.control.ListView;
 import javafx.scene.control.TableColumn;
@@ -135,13 +138,14 @@ public class ManageTripsScreen {
 		VBox vBoxFieldsRight = new VBox();
 
 		// Trip Type
+		ObservableList<String> tripTypes = FXCollections.observableArrayList("Single Day", "Residential");
 		Label lblTripType = new Label(Lang.FIELD_LABEL_TRIP_TYPE);
-		TextField txtTripType = new TextField();
+		ComboBox<String> comboTripType = new ComboBox<String>(tripTypes);
 
 		lblTripType.setPadding(insLabelPadding);
 
 		vBoxFieldsLeft.getChildren().add(lblTripType);
-		vBoxFieldsLeft.getChildren().add(txtTripType);
+		vBoxFieldsLeft.getChildren().add(comboTripType);
 
 		// Trip Name
 		Label lblTripName = new Label(Lang.FIELD_LABEL_TRIP_NAME);
@@ -153,13 +157,14 @@ public class ManageTripsScreen {
 		vBoxFieldsLeft.getChildren().add(txtTripName);
 
 		// Organiser
+		ObservableList<String> tripOrganisers = FXCollections.observableArrayList("Internal", "External");
 		Label lblOrganiser = new Label(Lang.FIELD_LABEL_ORGANISER);
-		TextField txtOrganiser = new TextField();
+		ComboBox<String> comboTripOrganiser = new ComboBox<String>(tripOrganisers);
 
 		lblOrganiser.setPadding(insLabelPadding);
 
 		vBoxFieldsRight.getChildren().add(lblOrganiser);
-		vBoxFieldsRight.getChildren().add(txtOrganiser);
+		vBoxFieldsRight.getChildren().add(comboTripOrganiser);
 
 		// Trip Cost
 		Label lblTripCost = new Label(Lang.FIELD_LABEL_TRIP_COST);
